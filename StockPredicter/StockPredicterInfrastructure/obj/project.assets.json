@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "StockPredicter.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/StockPredicter.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/StockPredicter.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "StockPredicter.Domain/1.0.0": {
+      "type": "project",
+      "path": "../StockPredicterDomain/StockPredicter.Domain.csproj",
+      "msbuildProject": "../StockPredicterDomain/StockPredicter.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "StockPredicter.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\jakub\\.nuget\\packages\\": {},
@@ -14,9 +33,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\REPOS\\StockPredicter\\StockPredicter\\StockPredicterInfrastructure\\StockPredicterInfrastructure.csproj",
-      "projectName": "StockPredicterInfrastructure",
-      "projectPath": "C:\\REPOS\\StockPredicter\\StockPredicter\\StockPredicterInfrastructure\\StockPredicterInfrastructure.csproj",
+      "projectUniqueName": "C:\\REPOS\\StockPredicter\\StockPredicter\\StockPredicterInfrastructure\\StockPredicter.Infrastructure.csproj",
+      "projectName": "StockPredicter.Infrastructure",
+      "projectPath": "C:\\REPOS\\StockPredicter\\StockPredicter\\StockPredicterInfrastructure\\StockPredicter.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\jakub\\.nuget\\packages\\",
       "outputPath": "C:\\REPOS\\StockPredicter\\StockPredicter\\StockPredicterInfrastructure\\obj\\",
       "projectStyle": "PackageReference",
@@ -39,7 +58,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\REPOS\\StockPredicter\\StockPredicter\\StockPredicterDomain\\StockPredicter.Domain.csproj": {
+              "projectPath": "C:\\REPOS\\StockPredicter\\StockPredicter\\StockPredicterDomain\\StockPredicter.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "b0B5ejOb2eV1OOonRLNIXbsn82t5dKgQ2bwhA+9pe47Wc5hfteVsGwkuwqCCLx3WZDWt7R2cfdAyPM0LpnILwQ==",
+  "dgSpecHash": "GTM7ifyLu2BJRJb9AA92LYnLVBsnCfK0R60ye5FpXuZ0K7a6qphX+CoKioGThKyzcR8zEYKS/RW5ydXvYfwp/g==",
   "success": true,
-  "projectFilePath": "C:\\REPOS\\StockPredicter\\StockPredicter\\StockPredicterTests\\StockPredicterTests.csproj",
+  "projectFilePath": "C:\\REPOS\\StockPredicter\\StockPredicter\\StockPredicterTests\\StockPredicter.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jakub\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\jakub\\.nuget\\packages\\microsoft.codecoverage\\17.1.0\\microsoft.codecoverage.17.1.0.nupkg.sha512",

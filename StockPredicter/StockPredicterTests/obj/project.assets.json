@@ -6115,9 +6115,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\REPOS\\StockPredicter\\StockPredicter\\StockPredicterTests\\StockPredicterTests.csproj",
-      "projectName": "StockPredicterTests",
-      "projectPath": "C:\\REPOS\\StockPredicter\\StockPredicter\\StockPredicterTests\\StockPredicterTests.csproj",
+      "projectUniqueName": "C:\\REPOS\\StockPredicter\\StockPredicter\\StockPredicterTests\\StockPredicter.Tests.csproj",
+      "projectName": "StockPredicter.Tests",
+      "projectPath": "C:\\REPOS\\StockPredicter\\StockPredicter\\StockPredicterTests\\StockPredicter.Tests.csproj",
       "packagesPath": "C:\\Users\\jakub\\.nuget\\packages\\",
       "outputPath": "C:\\REPOS\\StockPredicter\\StockPredicter\\StockPredicterTests\\obj\\",
       "projectStyle": "PackageReference",

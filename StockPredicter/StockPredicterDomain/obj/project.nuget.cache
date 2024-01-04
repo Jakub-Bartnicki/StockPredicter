@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "o1i6yyb3+Zu89woVKZISogpyioVjtFrYjoZNTldBNtOeuLz9ZUlcGH10qzb2wSRK0xeawakVgYoed9LjB5P+Vg==",
+  "dgSpecHash": "ZhmxbkqgFRgsKrMIJ8UPgoLNZuzEp/CmZsJCvZMr+8J1M5t2A8kfo2hR10jQ7742plf33MnKW6VVXnbK6aNWvg==",
   "success": true,
-  "projectFilePath": "C:\\REPOS\\StockPredicter\\StockPredicter\\StockPredicterDomain\\StockPredicterDomain.csproj",
+  "projectFilePath": "C:\\REPOS\\StockPredicter\\StockPredicter\\StockPredicterDomain\\StockPredicter.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

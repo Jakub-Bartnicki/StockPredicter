@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\REPOS\\StockPredicter\\StockPredicter\\StockPredicterDomain\\StockPredicterDomain.csproj",
-      "projectName": "StockPredicterDomain",
-      "projectPath": "C:\\REPOS\\StockPredicter\\StockPredicter\\StockPredicterDomain\\StockPredicterDomain.csproj",
+      "projectUniqueName": "C:\\REPOS\\StockPredicter\\StockPredicter\\StockPredicterDomain\\StockPredicter.Domain.csproj",
+      "projectName": "StockPredicter.Domain",
+      "projectPath": "C:\\REPOS\\StockPredicter\\StockPredicter\\StockPredicterDomain\\StockPredicter.Domain.csproj",
       "packagesPath": "C:\\Users\\jakub\\.nuget\\packages\\",
       "outputPath": "C:\\REPOS\\StockPredicter\\StockPredicter\\StockPredicterDomain\\obj\\",
       "projectStyle": "PackageReference",

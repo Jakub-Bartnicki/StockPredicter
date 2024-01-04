@@ -1,0 +1,15 @@
+C:\REPOS\StockPredicter\StockPredicter\StockPredicterInfrastructure\bin\Debug\net6.0\StockPredicter.Infrastructure.deps.json
+C:\REPOS\StockPredicter\StockPredicter\StockPredicterInfrastructure\bin\Debug\net6.0\StockPredicter.Infrastructure.dll
+C:\REPOS\StockPredicter\StockPredicter\StockPredicterInfrastructure\bin\Debug\net6.0\StockPredicter.Infrastructure.pdb
+C:\REPOS\StockPredicter\StockPredicter\StockPredicterInfrastructure\bin\Debug\net6.0\StockPredicter.Domain.dll
+C:\REPOS\StockPredicter\StockPredicter\StockPredicterInfrastructure\bin\Debug\net6.0\StockPredicter.Domain.pdb
+C:\REPOS\StockPredicter\StockPredicter\StockPredicterInfrastructure\obj\Debug\net6.0\StockPredicter.Infrastructure.csproj.AssemblyReference.cache
+C:\REPOS\StockPredicter\StockPredicter\StockPredicterInfrastructure\obj\Debug\net6.0\StockPredicter.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\REPOS\StockPredicter\StockPredicter\StockPredicterInfrastructure\obj\Debug\net6.0\StockPredicter.Infrastructure.AssemblyInfoInputs.cache
+C:\REPOS\StockPredicter\StockPredicter\StockPredicterInfrastructure\obj\Debug\net6.0\StockPredicter.Infrastructure.AssemblyInfo.cs
+C:\REPOS\StockPredicter\StockPredicter\StockPredicterInfrastructure\obj\Debug\net6.0\StockPredicter.Infrastructure.csproj.CoreCompileInputs.cache
+C:\REPOS\StockPredicter\StockPredicter\StockPredicterInfrastructure\obj\Debug\net6.0\StockPredicter.Infrastructure.csproj.CopyComplete
+C:\REPOS\StockPredicter\StockPredicter\StockPredicterInfrastructure\obj\Debug\net6.0\StockPredicter.Infrastructure.dll
+C:\REPOS\StockPredicter\StockPredicter\StockPredicterInfrastructure\obj\Debug\net6.0\refint\StockPredicter.Infrastructure.dll
+C:\REPOS\StockPredicter\StockPredicter\StockPredicterInfrastructure\obj\Debug\net6.0\StockPredicter.Infrastructure.pdb
+C:\REPOS\StockPredicter\StockPredicter\StockPredicterInfrastructure\obj\Debug\net6.0\ref\StockPredicter.Infrastructure.dll

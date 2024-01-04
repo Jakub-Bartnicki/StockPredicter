@@ -1,0 +1,12 @@
+C:\REPOS\StockPredicter\StockPredicter\StockPredicterDomain\bin\Debug\net6.0\StockPredicter.Domain.deps.json
+C:\REPOS\StockPredicter\StockPredicter\StockPredicterDomain\bin\Debug\net6.0\StockPredicter.Domain.dll
+C:\REPOS\StockPredicter\StockPredicter\StockPredicterDomain\bin\Debug\net6.0\StockPredicter.Domain.pdb
+C:\REPOS\StockPredicter\StockPredicter\StockPredicterDomain\obj\Debug\net6.0\StockPredicter.Domain.csproj.AssemblyReference.cache
+C:\REPOS\StockPredicter\StockPredicter\StockPredicterDomain\obj\Debug\net6.0\StockPredicter.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\REPOS\StockPredicter\StockPredicter\StockPredicterDomain\obj\Debug\net6.0\StockPredicter.Domain.AssemblyInfoInputs.cache
+C:\REPOS\StockPredicter\StockPredicter\StockPredicterDomain\obj\Debug\net6.0\StockPredicter.Domain.AssemblyInfo.cs
+C:\REPOS\StockPredicter\StockPredicter\StockPredicterDomain\obj\Debug\net6.0\StockPredicter.Domain.csproj.CoreCompileInputs.cache
+C:\REPOS\StockPredicter\StockPredicter\StockPredicterDomain\obj\Debug\net6.0\StockPredicter.Domain.dll
+C:\REPOS\StockPredicter\StockPredicter\StockPredicterDomain\obj\Debug\net6.0\refint\StockPredicter.Domain.dll
+C:\REPOS\StockPredicter\StockPredicter\StockPredicterDomain\obj\Debug\net6.0\StockPredicter.Domain.pdb
+C:\REPOS\StockPredicter\StockPredicter\StockPredicterDomain\obj\Debug\net6.0\ref\StockPredicter.Domain.dll
