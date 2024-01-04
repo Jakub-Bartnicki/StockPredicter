@@ -1,4 +1,4 @@
-namespace StockPredicter
+namespace StockPredicter.Api
 {
     public class Program
     {
