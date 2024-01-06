@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace StockPredicter.Controllers
+namespace StockPredicter.Api.Controllers
 {
     [ApiController]
     [Route("[controller]")]
