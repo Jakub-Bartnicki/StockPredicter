@@ -8,7 +8,7 @@ namespace StockPredicter.Domain.Queries
 {
     public class StockByNameQuery : IBaseQuery<StockByNameResponse>
     {
-        public StockByNameRequest RequestData { get; set; }
+        private StockByNameRequest RequestData { get; }
 
         public StockByNameQuery(StockByNameRequest request)
         {
@@ -19,8 +19,9 @@ namespace StockPredicter.Domain.Queries
         {
             public async Task<StockByNameResponse> Handle(StockByNameQuery request, CancellationToken ct)
             {
-                var array = new List<StockDetails>();
-                array.Add(new StockDetails("APP"));
+                var array = new List<string>();
+                // TODO
+                // get data from MongoDB
                 return new StockByNameResponse(array);
             }
         }

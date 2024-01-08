@@ -1,4 +1,6 @@
-﻿namespace StockPredicter.Domain.Entities
+﻿using StockPredicter.Domain.Dto.ApiResponses;
+
+namespace StockPredicter.Domain.Entities
 {
-    public record StockDetails(string name);
+    public record StockDetails(AgregatesResponse details);
 }

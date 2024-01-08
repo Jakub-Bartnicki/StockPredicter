@@ -19,5 +19,15 @@ namespace StockPredicter.Api.Controllers
 
             return result;
         }
+
+        [HttpGet("{stockTicker}/{from}/{to}")]
+        public Task<IActionResult> GetStockDetails(string stockTicker, string from, string to)
+        {
+            var request = new StockDataDetailsRequest(stockTicker, from, to);
+            var query = new StockDataDetailsQuery(request);
+            var result = Query(query);
+
+            return result;
+        }
     }
 }
