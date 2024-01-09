@@ -7,9 +7,9 @@ namespace StockPredicter.Domain.Dto.ApiResponses
         int queryCount,
         int resultsCount,
         bool adjusted,
-        AgregateResult[] results,
+        List<AgregateResult> results,
         // create enum/sth else
         string status,
         string request_id,
-        string count);
+        int count);
 }

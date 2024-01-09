@@ -42,8 +42,6 @@ namespace StockPredicter.Domain.Queries
                 {
                     throw;
                 }
-            //https://api.polygon.io/v2/aggs/ticker/AAPL/range/1/day/2024-01-01/2024-01-05?adjusted=true&sort=asc&limit=120&apiKey=e1I2UVilE7TAdKnXJgijMqeOWmxSqecy
-            //https://api.polygon.io/v2/aggs/ticker/APPL/range/1/day/2024-01-01/2024-01-05?adjusted=True&limit=120&apiKey=e1I2UVilE7TAdKnXJgijMqeOWmxSqecy
             }
 
             private string PrepareUrlRequest(StockDataDetailsQuery request, StockDataDetailsRequest reqData)
@@ -55,7 +53,7 @@ namespace StockPredicter.Domain.Queries
                     .Append(reqData.timespan.ToString()).Append("/")
                     .Append(reqData.from).Append("/")
                     .Append(reqData.to).Append("?adjusted=")
-                    .Append(reqData.adjusted ? "True" : "False").Append("&sort=")
+                    .Append(reqData.adjusted ? "true" : "false").Append("&sort=")
                     .Append(reqData.sort).Append("&limit=")
                     .Append(reqData.limit.ToString()).Append("&apiKey=")
                     .Append(request.API_KEY)
