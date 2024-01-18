@@ -1,7 +1,6 @@
-﻿using StockPredicter.Domain.Entities;
-using StockPredicter.Domain.Interfaces;
+﻿using StockPredicter.Domain.Interfaces;
 
 namespace StockPredicter.Domain.Dto.Responses
 {
-    public record StockByNameResponse(List<StockDetails> Stocks) : IResponseDto;
+    public record StockByNameResponse(List<string> StocksNames) : IResponseDto;
 }

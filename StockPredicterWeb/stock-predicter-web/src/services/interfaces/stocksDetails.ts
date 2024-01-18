@@ -1,5 +1,3 @@
-import Stock from "../../app/DTO/stock";
-
-export default interface stocksDetails {
-    stocks: Stock[];
+export default interface StocksDetails {
+    stocksNames: string[];
 }

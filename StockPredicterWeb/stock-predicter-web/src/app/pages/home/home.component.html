@@ -1,2 +1,4 @@
 <p>home works!</p>
-<p>{{stocks[0]?.name}}</p>
+<ng-template ngFor let-stock [ngForOf]="stocks" let-i="index">
+    <p>{{stock.name}}</p>
+</ng-template>
