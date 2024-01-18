@@ -20,7 +20,7 @@ namespace StockPredicter.Api.Controllers
             return result;
         }
 
-        [HttpGet("{stockTicker}/{from}/{to}")]
+        [HttpGet()]
         public Task<IActionResult> GetStockDetails(string stockTicker, string from, string to)
         {
             var request = new StockDataDetailsRequest(stockTicker, from, to);

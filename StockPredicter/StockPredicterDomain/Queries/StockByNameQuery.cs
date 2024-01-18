@@ -22,6 +22,9 @@ namespace StockPredicter.Domain.Queries
                 var array = new List<string>();
                 // TODO
                 // get data from MongoDB
+
+                array.Add("test");
+
                 return new StockByNameResponse(array);
             }
         }

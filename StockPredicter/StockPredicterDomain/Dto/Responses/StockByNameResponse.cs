@@ -2,5 +2,5 @@
 
 namespace StockPredicter.Domain.Dto.Responses
 {
-    public record StockByNameResponse(List<string> StocksName) : IResponseDto;
+    public record StockByNameResponse(List<string> StocksNames) : IResponseDto;
 }

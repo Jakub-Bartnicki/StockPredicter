@@ -17,8 +17,8 @@ export class HomeComponent implements OnInit {
 
   ngOnInit(): void {
     this.stockApiService.getOne().subscribe(value => {
-      for(var stock of value.stocks) {
-        this.stocks.push({name: stock.name});
+      for(var name of value.stocksNames) {
+        this.stocks.push({name: name});
       }
     });
   }

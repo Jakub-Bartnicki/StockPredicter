@@ -2,6 +2,7 @@
 using StockPredicter.Domain.Dto.ApiResponses;
 using StockPredicter.Domain.Dto.Requests;
 using StockPredicter.Domain.Dto.Responses;
+using StockPredicter.Domain.Dto.Utility;
 using StockPredicter.Domain.Entities;
 using StockPredicter.Domain.Interfaces;
 using System.Text;
@@ -11,26 +12,29 @@ namespace StockPredicter.Domain.Queries
 {
     public class StockDataDetailsQuery : IBaseQuery<StockDataDetailsResponse>
     {
-        // move out static values 
-        protected string url { get; } = "https://api.polygon.io/v2/aggs/ticker/";
-        private string API_KEY { get; } = "e1I2UVilE7TAdKnXJgijMqeOWmxSqecy";
-
-        private StockDataDetailsRequest RequestData { get; }
+        private readonly StockDataDetailsRequest _requestData;
 
         public StockDataDetailsQuery(StockDataDetailsRequest requestData)
         {
-            RequestData = requestData;
+            _requestData = requestData;
         }
 
         internal class StockDataDetailsQueryHandler
             : IRequestHandler<StockDataDetailsQuery, StockDataDetailsResponse>
         {
+            private readonly PolygonApiConfig _polygonApiConfig;
+
+            public StockDataDetailsQueryHandler(PolygonApiConfig polygonApiConfig)
+            {
+                _polygonApiConfig = polygonApiConfig;
+            }
+
             public async Task<StockDataDetailsResponse> Handle(StockDataDetailsQuery request, 
                 CancellationToken ct)
             {
                 try
                 {
-                    var reqData = request.RequestData;
+                    var reqData = request._requestData;
                     string requestUrl = PrepareUrlRequest(request, reqData);
                     HttpClient client = new HttpClient();
                     var response = await client.GetAsync(requestUrl);
@@ -47,7 +51,7 @@ namespace StockPredicter.Domain.Queries
             private string PrepareUrlRequest(StockDataDetailsQuery request, StockDataDetailsRequest reqData)
             {
                 StringBuilder stringBuilder = new StringBuilder();
-                var requestUrl = stringBuilder.Append(request.url)
+                var requestUrl = stringBuilder.Append(_polygonApiConfig.Url)
                     .Append(reqData.stocksTicker).Append("/range/")
                     .Append(reqData.multiplier.ToString()).Append("/")
                     .Append(reqData.timespan.ToString()).Append("/")
@@ -56,7 +60,7 @@ namespace StockPredicter.Domain.Queries
                     .Append(reqData.adjusted ? "true" : "false").Append("&sort=")
                     .Append(reqData.sort).Append("&limit=")
                     .Append(reqData.limit.ToString()).Append("&apiKey=")
-                    .Append(request.API_KEY)
+                    .Append(_polygonApiConfig.ApiKey)
                     .ToString();
 
                 return requestUrl;
